@@ -8,7 +8,11 @@ export default function Home() {
 
             <div className='hero-image'></div>
             <div className="home-links">
-                <h1>Hello World</h1>
+                <h1>Matthew Hunter Steffner</h1>
+                <h2>Full Stack Web Developer</h2>
+
+                <a href="#">Contact Me</a>
+                <a href="#">Download Resume</a>
             </div>
 
 

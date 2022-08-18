@@ -11,3 +11,11 @@
 .home-links {
   width: 50vw;
 }
+
+#nav li {
+  list-style: none;
+}
+#nav a{
+  color: inherit;
+  /* text-decoration: none; */
+}
