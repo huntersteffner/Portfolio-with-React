@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe'
 import Work from './components/Work'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import './App.css'
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
     <div>
       <Navbar />
       <Component />
+      <Footer />
     </div>
   )
 }

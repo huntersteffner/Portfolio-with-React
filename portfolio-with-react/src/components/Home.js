@@ -11,7 +11,7 @@ export default function Home() {
                 <h1>Matthew Hunter Steffner</h1>
                 <h2>Full Stack Web Developer</h2>
 
-                <a href="#">Contact Me</a>
+                <a href="/contact">Contact Me</a>
                 <a href="#">Download Resume</a>
             </div>
 

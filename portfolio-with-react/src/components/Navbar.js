@@ -1,27 +1,37 @@
 import React from 'react'
 
 export default function Navbar() {
-  // All functional components must have a return method that contains JSX.
-  // We return all the JSX inside a parent element with a className of "container".
+  const path = window.location.pathname
+
+
   return (
     <nav id='nav'>
       <ul className="navbar navbar-light">
         <li>
-          <a href="/">Home</a>
+          <CustomLink href='/'>Home</CustomLink>
         </li>
         <li>
-          <a href="/about-me">About Me</a>
+        <CustomLink href='/about-me'>About Me</CustomLink>
         </li>
         <li>
-          <a href="/work">Work</a>
+        <CustomLink href='/work'>Work</CustomLink>
         </li>
         <li>
-          <a href="/resume">Resume</a>
+        <CustomLink href='/resume'>Resume</CustomLink>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+        <CustomLink href='/contact'>Contact Me</CustomLink>
         </li>
       </ul>
     </nav>
+  )
+}
+
+function CustomLink({ href, children, ...props}) {
+  const path = window.location.pathname
+  return (
+    <li className={path === href ? 'active': ''}>
+      <a href={href}>{children}</a>
+    </li>
   )
 }
