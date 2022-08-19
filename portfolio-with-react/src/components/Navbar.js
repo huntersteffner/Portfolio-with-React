@@ -18,7 +18,7 @@ export default function Navbar() {
         <CustomLink to='/work'>Work</CustomLink>
         </li>
         <li>
-        <CustomLink to='/resume'>Resume</CustomLink>
+        <a href='Hunter-Steffner-Resume.pdf' download='Hunter-Steffner-Resume.pdf'>Resume</a>
         </li>
         <li>
         <CustomLink to='/contact'>Contact Me</CustomLink>
