@@ -12,7 +12,7 @@ export default function Home() {
                 <h2>Full Stack Web Developer</h2>
 
                 <a href="/contact">Contact Me</a>
-                <a href="#">Download Resume</a>
+                {/* <a href="#">Download Resume</a> */}
             </div>
 
 
