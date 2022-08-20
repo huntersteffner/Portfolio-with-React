@@ -9,19 +9,19 @@ export default function Navbar() {
     <nav id='nav'>
       <ul className="navbar navbar-light">
         <li>
-          <CustomLink to='/'>Home</CustomLink>
+          <CustomLink to='/Portfolio-with-React/'>Home</CustomLink>
         </li>
         <li>
-        <CustomLink to='/about-me'>About Me</CustomLink>
+        <CustomLink to='/Portfolio-with-React/about-me'>About Me</CustomLink>
         </li>
         <li>
-        <CustomLink to='/work'>Work</CustomLink>
+        <CustomLink to='/Portfolio-with-React/work'>Work</CustomLink>
         </li>
         <li>
         <a href='Hunter-Steffner-Resume.pdf' download='Hunter-Steffner-Resume.pdf'>Resume</a>
         </li>
         <li>
-        <CustomLink to='/contact'>Contact Me</CustomLink>
+        <CustomLink to='/Portfolio-with-React/contact'>Contact Me</CustomLink>
         </li>
       </ul>
     </nav>

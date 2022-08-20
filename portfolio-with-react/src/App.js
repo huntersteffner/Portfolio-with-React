@@ -33,11 +33,11 @@ export default function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/about-me' element={<AboutMe/>} />
-        <Route path='/work' element={<Work/>} />
-        <Route path='/resume' element={<Resume/>} />
-        <Route path='/contact' element={<Contact/>} />
+        <Route path='/Portfolio-with-React/' element={<Home/>} />
+        <Route path='/Portfolio-with-React/about-me' element={<AboutMe/>} />
+        <Route path='/Portfolio-with-React/work' element={<Work/>} />
+        <Route path='/Portfolio-with-React/resume' element={<Resume/>} />
+        <Route path='/Portfolio-with-React/contact' element={<Contact/>} />
       </Routes>
       <Footer />
     </div>
