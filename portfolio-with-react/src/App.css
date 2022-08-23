@@ -36,15 +36,20 @@
   border-bottom: #777 5px solid;
 }
 #project-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
 
 .project-card {
   background-color: rgb(240, 235, 235);
   border: black 1px solid;
-  width: 25vw;
-  overflow: hidden;
+  width: 20rem;
+  margin: 1.5rem;
+  /* overflow: hidden; */
 }
 .project-img-container {
   width: 100%;
@@ -66,4 +71,13 @@
 }
 .project-desc a {
   margin: 1rem 2.5rem;
+}
+
+@media (max-width: 820px) {
+  body {
+    background-color: red;
+  }
+  #project-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
