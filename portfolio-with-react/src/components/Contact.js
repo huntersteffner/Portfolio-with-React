@@ -8,6 +8,7 @@ export default function Contact() {
         <input type="text" name="name" placeholder="Name" required />
         <input type="email" name="email" placeholder="Email Address" required/>
         <input type="text" name="message" placeholder="write your message here." />
+        <input type="hidden" name="_captcha" value="false"></input>
         <button type="submit">Send</button>
       </form>
       
