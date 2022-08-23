@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio-with-React/static/css/main.5a005aee.css",
-    "main.js": "/Portfolio-with-React/static/js/main.90488b65.js",
+    "main.css": "/Portfolio-with-React/static/css/main.8a994514.css",
+    "main.js": "/Portfolio-with-React/static/js/main.29204a29.js",
     "static/js/787.51ee14cf.chunk.js": "/Portfolio-with-React/static/js/787.51ee14cf.chunk.js",
     "static/media/Hunter-on-subway.jpg": "/Portfolio-with-React/static/media/Hunter-on-subway.6dce987d9ed20428795b.jpg",
     "static/media/Wedding-photo.jpg": "/Portfolio-with-React/static/media/Wedding-photo.08a7730ba20a63f14222.jpg",
     "index.html": "/Portfolio-with-React/index.html",
-    "main.5a005aee.css.map": "/Portfolio-with-React/static/css/main.5a005aee.css.map",
-    "main.90488b65.js.map": "/Portfolio-with-React/static/js/main.90488b65.js.map",
+    "main.8a994514.css.map": "/Portfolio-with-React/static/css/main.8a994514.css.map",
+    "main.29204a29.js.map": "/Portfolio-with-React/static/js/main.29204a29.js.map",
     "787.51ee14cf.chunk.js.map": "/Portfolio-with-React/static/js/787.51ee14cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a005aee.css",
-    "static/js/main.90488b65.js"
+    "static/css/main.8a994514.css",
+    "static/js/main.29204a29.js"
   ]
 }
