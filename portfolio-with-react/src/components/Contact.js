@@ -3,16 +3,42 @@ export default function Contact() {
   // We return all the JSX inside a parent element with a className of "container".
   return (
     <div>
-      <form action="https://formsubmit.co/acaa027063cedb37352926a943777828 " method="POST">
-        <input type="hidden" name="_subject" value="New email from Portfolio" />
-        <input type="text" name="name" placeholder="Name" required />
-        <input type="email" name="email" placeholder="Email Address" required/>
-        <input type="text" name="message" placeholder="write your message here." />
-        <input type="hidden" name="_captcha" value="false"></input>
-        <button type="submit">Send</button>
-      </form>
-      
-      
+      <div className="form-container">
+        <form
+          className="contact-form"
+          action="https://formsubmit.co/acaa027063cedb37352926a943777828 "
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_subject"
+            value="New email from Portfolio"
+          />
+          <div className="form-input">
+            <input type="text" name="name" placeholder="Name" required />
+          </div>
+          <div className="form-input">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div className="form-input">
+            <input
+              type="text"
+              name="message"
+              placeholder="write your message here."
+            />
+          </div>
+          <div className="form-button">
+            <button className="btn btn-primary" type="submit">
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   )
 }
