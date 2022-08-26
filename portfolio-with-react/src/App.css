@@ -2,6 +2,7 @@
 :root {
   --dark-bg-color: rgb(31, 31, 31);
   --fade-bg-color: linear-gradient(#5f5e5e, #2f2e2e);
+  --box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
 }
 /* CSS Reset */
 * {
@@ -20,6 +21,7 @@ body {
 #nav {
   background-color: var(--dark-bg-color);
   color: #fff;
+  box-shadow: var(--box-shadow);
 }
 #nav li {
   list-style: none;
@@ -39,6 +41,7 @@ body {
   position: relative;
   bottom: 0;
   width: 100%;
+  padding: 1rem;
 }
 /* Home page divs */
 .home-container {
@@ -89,6 +92,7 @@ body {
 /* Skills card in about me */
 .skills {
   margin: 1rem;
+  
 }
 .skills li {
   list-style-type: none;
@@ -104,7 +108,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: var(--box-shadow);
 }
 /* Card for individual projects */
 .project-card {
@@ -114,6 +118,7 @@ body {
   height: 30rem;
   margin: 1.5rem;
   border-radius: 10px;
+  box-shadow: var(--box-shadow);
 }
 .project-img-container {
   width: 100%;
@@ -133,6 +138,7 @@ body {
 .project-desc {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .project-desc a {
   margin: 1rem 2.5rem;
@@ -140,9 +146,11 @@ body {
 /* Contact me page */
 .form-container {
   border: 1px solid black;
+  box-shadow: var(--box-shadow);
   background-color: var(--dark-bg-color);
   border-radius: 1rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 2rem;
@@ -171,6 +179,9 @@ body {
 }
 /* Media queries */
 @media (max-width: 710px) {
+  #nav {
+    font-size: .8rem;
+  }
   .home-container {
     flex-direction: column;
   }
@@ -194,11 +205,12 @@ body {
    flex-wrap: wrap;
   }
   .skills {
-    width: 60%;
+    width: 100%;
     padding: 1rem;
     border: black 1px solid;
     border-radius: 5px;
     background-color: var(--dark-bg-color);
+    box-shadow: var(--box-shadow);
   }
   .skills h2 {
     font-size: 1.4rem;

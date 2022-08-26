@@ -4,6 +4,7 @@ export default function Contact() {
       {/* Contact Form */}
       <div className="form-container">
         {/* The action links to form submit. It is a free service that allows one to submit emails using only HTML. The code in the URL was given to me by formsubmit to link to my personal email */}
+        <h1>Contact Me</h1>
         <form
           className="contact-form"
           action="https://formsubmit.co/acaa027063cedb37352926a943777828 "

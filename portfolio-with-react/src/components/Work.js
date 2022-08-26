@@ -29,10 +29,10 @@ export default function Work() {
           <div className="project-desc">
             <h3>Weather App</h3>
             <h4>JavaScript, Bootstrap</h4>
-            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Weather-App">
+            <a className="btn btn-primary" target="_blank" href="https://huntersteffner.github.io/Weather-App/">
               Deployed Site
             </a>
-            <a className="btn btn-primary" target="_blank" href="https://huntersteffner.github.io/Weather-App/">
+            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Weather-App">
               GitHub
             </a>
           </div>
@@ -63,10 +63,10 @@ export default function Work() {
           <div className="project-desc">
             <h3>Social Blog</h3>
             <h4>Node.js, MySQL, Bootstrap</h4>
-            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Social-Blog-Website">
+            <a className="btn btn-primary" target="_blank" href="https://social-blog-steffner.herokuapp.com/">
               Deployed Site
             </a>
-            <a className="btn btn-primary" target="_blank" href="https://social-blog-steffner.herokuapp.com/">
+            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Social-Blog-Website">
               GitHub
             </a>
           </div>
@@ -80,10 +80,10 @@ export default function Work() {
           <div className="project-desc">
             <h3>Work Team Generator</h3>
             <h4>Node.js, Bootstrap, Inquirer</h4>
-            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Work-Team-Generator">
+            <a className="btn btn-primary" target="_blank" href="https://huntersteffner.github.io/Work-Team-Generator/">
               Deployed Site
             </a>
-            <a className="btn btn-primary" target="_blank" href="https://huntersteffner.github.io/Work-Team-Generator/">
+            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Work-Team-Generator">
               GitHub
             </a>
           </div>
