@@ -45,6 +45,9 @@ body {
   width: 50vw;
   padding: 1rem;
 }
+.about-desc h1 {
+  text-align: center;
+}
 .home-links {
   padding: 1rem;
   width: 50vw;
@@ -56,6 +59,17 @@ body {
 .home-links h2 {
   text-align: center;
   font-size: 2rem;
+}
+.skills {
+  margin: 1rem;
+}
+.skills li {
+  list-style-type: none;
+  margin: 0 .5rem;
+  font-size: 1.1rem;
+}
+.skills-container {
+
 }
 #nav {
   background-color: var(--dark-bg-color);
@@ -167,5 +181,23 @@ body {
   .hero-image {
     height: 60vh;
     width: 100vw
+  }
+  .skills-container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  }
+  .skills {
+    width: 45%;
+    padding: 1rem;
+    border: black 1px solid;
+    border-radius: 5px;
+    background-color: var(--dark-bg-color);
+  }
+  .skills h2 {
+    font-size: 1.4rem;
+  }
+  .skills li {
+    font-size: .9rem;
   }
 }
