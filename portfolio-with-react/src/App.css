@@ -142,6 +142,7 @@ body {
 
 .form-container {
   border: 1px solid black;
+  background-color: var(--dark-bg-color);
   border-radius: 1rem;
   display: flex;
   justify-content: center;
@@ -151,14 +152,20 @@ body {
 }
 .contact-form {
   margin: 1rem;
-  width: 75%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .form-input {
-  margin: .5rem;
+  margin: .5rem 0;
+  width: 100%;
+} 
+.form-input-text {
+  margin: .5rem 0;
+  width: 100%;
+  height: 10rem;
 } 
 .form-btn {
   display: block;
@@ -188,7 +195,7 @@ body {
    flex-wrap: wrap;
   }
   .skills {
-    width: 45%;
+    width: 60%;
     padding: 1rem;
     border: black 1px solid;
     border-radius: 5px;
@@ -199,5 +206,11 @@ body {
   }
   .skills li {
     font-size: .9rem;
+  }
+  .contact-form {
+    width: 80%;
+  }
+  .form-container {
+    height: 75vh;
   }
 }

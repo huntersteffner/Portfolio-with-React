@@ -14,29 +14,33 @@ export default function Contact() {
             name="_subject"
             value="New email from Portfolio"
           />
-          <div className="form-input">
-            <input type="text" name="name" placeholder="Name" required />
-          </div>
-          <div className="form-input">
-            <input
-              type="email"
-              name="email"
-              placeholder="Email Address"
-              required
-            />
-          </div>
-          <div className="form-input">
-            <input
-              type="text"
-              name="message"
-              placeholder="write your message here."
-            />
-          </div>
+
+          <input
+            className="form-input"
+            type="text"
+            name="name"
+            placeholder="Name"
+            required
+          />
+
+          <input
+            className="form-input"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
           
-            <button className="form-btn btn btn-primary" type="submit">
-              Send
-            </button>
-          
+          <textarea
+            className="form-input-text"
+            placeholder="Write your message here"
+            name="message"
+            
+          />
+
+          <button className="form-btn btn btn-primary" type="submit">
+            Send
+          </button>
         </form>
       </div>
     </div>
