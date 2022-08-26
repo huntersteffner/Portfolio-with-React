@@ -9,7 +9,7 @@ export default function Navbar() {
           <CustomLink to="/Portfolio-with-React/">Home</CustomLink>
         </li>
         <li>
-          <CustomLink to="/Portfolio-with-React/about-me">About Me</CustomLink>
+          <CustomLink to="/Portfolio-with-React/about-me">Skills</CustomLink>
         </li>
         <li>
           <CustomLink to="/Portfolio-with-React/work">Work</CustomLink>
