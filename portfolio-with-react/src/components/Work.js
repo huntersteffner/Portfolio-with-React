@@ -1,113 +1,58 @@
-export default function Work() {
+import WorkCard from './WorkCard'
+
+export default function Work(props) {
   return (
     <div>
       <div id="project-list">
         {/* List of projects I've worked on */}
-        <div className="project-card">
-          <div className="project-img-container">
-            <div className="project-img">
-              <img src="./Wookies-Gold.png" alt="Wookies Gold" />
-            </div>
-          </div>
-          <div className="project-desc">
-            <h3>Wookies Gold</h3>
-            <h4>Node.js, MySQL, Bootstrap</h4>
-            <a className="btn btn-primary" target="_blank" href="https://glacial-tor-15581.herokuapp.com/">
-              Deployed Site
-            </a>
-            <a className="btn btn-primary" target="_blank" href="https://github.com/pcondori1996/WookiesGold">
-              GitHub
-            </a>
-          </div>
-        </div>
-        <div className="project-card">
-          <div className="project-img-container">
-            <div className="project-img">
-              <img src="./Weather-App.png" alt="Weather App" />
-            </div>
-          </div>
-          <div className="project-desc">
-            <h3>Weather App</h3>
-            <h4>JavaScript, Bootstrap</h4>
-            <a className="btn btn-primary" target="_blank" href="https://huntersteffner.github.io/Weather-App/">
-              Deployed Site
-            </a>
-            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Weather-App">
-              GitHub
-            </a>
-          </div>
-        </div>
-        <div className="project-card">
-          <div className="project-img-container">
-            <div className="project-img">
-              <img src="./Concert-Finder.png" alt="Concert Finder" />
-            </div>
-          </div>
-          <div className="project-desc">
-            <h3>Concert Finder</h3>
-            <h4>Javascript, Bootstrap, Leaflet</h4>
-            <a className="btn btn-primary" target="_blank" href="https://huntersteffner.github.io/Concert-Finder/">
-              Deployed Site
-            </a>
-            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Concert-Finder">
-              GitHub
-            </a>
-          </div>
-        </div>
-        <div className="project-card">
-          <div className="project-img-container">
-            <div className="project-img">
-              <img src="./Social-Blog.png" alt="Social Blog" />
-            </div>
-          </div>
-          <div className="project-desc">
-            <h3>Social Blog</h3>
-            <h4>Node.js, MySQL, Bootstrap</h4>
-            <a className="btn btn-primary" target="_blank" href="https://social-blog-steffner.herokuapp.com/">
-              Deployed Site
-            </a>
-            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Social-Blog-Website">
-              GitHub
-            </a>
-          </div>
-        </div>
-        <div className="project-card">
-          <div className="project-img-container">
-            <div className="project-img">
-              <img src="./Work-Team-Generator.png" alt="Work Team Generator" />
-            </div>
-          </div>
-          <div className="project-desc">
-            <h3>Work Team Generator</h3>
-            <h4>Node.js, Bootstrap, Inquirer</h4>
-            <a className="btn btn-primary" target="_blank" href="https://huntersteffner.github.io/Work-Team-Generator/">
-              Deployed Site
-            </a>
-            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Work-Team-Generator">
-              GitHub
-            </a>
-          </div>
-        </div>
-        <div className="project-card">
-          <div className="project-img-container">
-            <div className="project-img">
-              <img src="./Password-Generator.png" alt="Password Generator" />
-            </div>
-          </div>
-          <div className="project-desc">
-            <h3>Password Generator</h3>
-            <h4>HTML, CSS, JavaScript</h4>
-            
-
-            <a className="btn btn-primary" target="_blank" href="https://huntersteffner.github.io/Password-Generator/">
-              Deployed Site
-            </a>
-            <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Password-Generator">
-              GitHub
-            </a>
-            
-          </div>
-        </div>
+        <WorkCard
+          title={props.projects[0].title}
+          skillsUsed={props.projects[0].skillsUsed}
+          imgURL={props.projects[0].imgURL}
+          alt={props.projects[0].alt}
+          deployed={props.projects[0].deployed}
+          github={props.projects[0].github}
+        />
+        <WorkCard
+          title={props.projects[1].title}
+          skillsUsed={props.projects[1].skillsUsed}
+          imgURL={props.projects[1].imgURL}
+          alt={props.projects[1].alt}
+          deployed={props.projects[1].deployed}
+          github={props.projects[1].github}
+        />
+        <WorkCard
+          title={props.projects[2].title}
+          skillsUsed={props.projects[2].skillsUsed}
+          imgURL={props.projects[2].imgURL}
+          alt={props.projects[2].alt}
+          deployed={props.projects[2].deployed}
+          github={props.projects[2].github}
+        />
+        <WorkCard
+          title={props.projects[3].title}
+          skillsUsed={props.projects[3].skillsUsed}
+          imgURL={props.projects[3].imgURL}
+          alt={props.projects[3].alt}
+          deployed={props.projects[3].deployed}
+          github={props.projects[3].github}
+        />
+        <WorkCard
+          title={props.projects[4].title}
+          skillsUsed={props.projects[4].skillsUsed}
+          imgURL={props.projects[4].imgURL}
+          alt={props.projects[4].alt}
+          deployed={props.projects[4].deployed}
+          github={props.projects[4].github}
+        />
+        <WorkCard
+          title={props.projects[5].title}
+          skillsUsed={props.projects[5].skillsUsed}
+          imgURL={props.projects[5].imgURL}
+          alt={props.projects[5].alt}
+          deployed={props.projects[5].deployed}
+          github={props.projects[5].github}
+        />
       </div>
     </div>
   )
