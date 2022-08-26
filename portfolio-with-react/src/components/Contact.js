@@ -32,11 +32,11 @@ export default function Contact() {
               placeholder="write your message here."
             />
           </div>
-          <div className="form-button">
-            <button className="btn btn-primary" type="submit">
+          
+            <button className="form-btn btn btn-primary" type="submit">
               Send
             </button>
-          </div>
+          
         </form>
       </div>
     </div>

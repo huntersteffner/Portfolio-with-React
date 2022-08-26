@@ -30,8 +30,9 @@ export default function App() {
   // }
 
   return (
-    <div>
+    <div className='content-container'>
       <Navbar />
+      
       <Routes>
         <Route path='/Portfolio-with-React/' element={<Home/>} />
         <Route path='/Portfolio-with-React/about-me' element={<AboutMe/>} />
@@ -39,6 +40,7 @@ export default function App() {
         <Route path='/Portfolio-with-React/resume' element={<Resume/>} />
         <Route path='/Portfolio-with-React/contact' element={<Contact/>} />
       </Routes>
+      
       <Footer />
     </div>
   )
