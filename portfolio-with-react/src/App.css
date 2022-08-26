@@ -1,25 +1,50 @@
+/* CSS Variables */
 :root {
   --dark-bg-color: rgb(31, 31, 31);
   --fade-bg-color: linear-gradient(#5f5e5e, #2f2e2e);
 }
+/* CSS Reset */
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
-
+/* body stylings */
 body {
   background-image: var(--fade-bg-color);
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
 }
+/* Navbar */
+#nav {
+  background-color: var(--dark-bg-color);
+  color: #fff;
+}
+#nav li {
+  list-style: none;
+}
 
+#nav a {
+  color: inherit;
+  text-decoration: none;
+}
+#nav .active {
+  border-bottom: #777 5px solid;
+}
+/* Footer */
+#footer {
+  background-color: var(--dark-bg-color);
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+/* Home page divs */
 .home-container {
   display: flex;
   flex-direction: row;
 }
-
 .hero-image {
   background: url('../public/Hunter-on-subway.jpg') no-repeat center
     center/cover;
@@ -36,18 +61,6 @@ body {
   margin: 1rem;
   list-style-type: none;
 }
-.about-image {
-  background: url('../public//Wedding-photo.jpg') no-repeat center left/cover;
-  height: 100vh;
-  width: 50vw;
-}
-.about-desc {
-  width: 50vw;
-  padding: 1rem;
-}
-.about-desc h1 {
-  text-align: center;
-}
 .home-links {
   padding: 1rem;
   width: 50vw;
@@ -60,6 +73,20 @@ body {
   text-align: center;
   font-size: 2rem;
 }
+/* About me page */
+.about-image {
+  background: url('../public//Wedding-photo.jpg') no-repeat center left/cover;
+  height: 100vh;
+  width: 50vw;
+}
+.about-desc {
+  width: 50vw;
+  padding: 1rem;
+}
+.about-desc h1 {
+  text-align: center;
+}
+/* Skills card in about me */
 .skills {
   margin: 1rem;
 }
@@ -68,46 +95,18 @@ body {
   margin: 0 .5rem;
   font-size: 1.1rem;
 }
-.skills-container {
-
-}
-#nav {
-  background-color: var(--dark-bg-color);
-  color: #fff;
-}
-#nav li {
-  list-style: none;
-}
-
-#nav a {
-  color: inherit;
-  text-decoration: none;
-  /* text-decoration: none; */
-}
-#nav .active {
-  border-bottom: #777 5px solid;
-}
-#footer {
-  background-color: var(--dark-bg-color);
-  color: #fff;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
 .content-container {
   display: flex;
   flex-direction: column;
 }
+/* Project page */
 #project-list {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr); */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
 }
-
+/* Card for individual projects */
 .project-card {
   background-color: var(--dark-bg-color);
   border: black 1px solid;
@@ -115,7 +114,6 @@ body {
   height: 30rem;
   margin: 1.5rem;
   border-radius: 10px;
-  /* overflow: hidden; */
 }
 .project-img-container {
   width: 100%;
@@ -139,7 +137,7 @@ body {
 .project-desc a {
   margin: 1rem 2.5rem;
 }
-
+/* Contact me page */
 .form-container {
   border: 1px solid black;
   background-color: var(--dark-bg-color);
@@ -171,6 +169,7 @@ body {
   display: block;
   width: 100%;
 }
+/* Media queries */
 @media (max-width: 710px) {
   .home-container {
     flex-direction: column;

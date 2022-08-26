@@ -1,12 +1,12 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
-
+// There is a link button so react-router-dom was also imported here
 export default function Home() {
-  // All functional components must have a return method that contains JSX.
-  // We return all the JSX inside a parent element with a className of "container".
   return (
     <div className="home-container">
+        {/* Image has a background url. See CSS page */}
       <div className="hero-image"></div>
       <div className="home-links">
+        {/* Quick summary of me */}
         <h1>Matthew Hunter Steffner</h1>
         <h2>Full Stack Web Developer</h2>
 
@@ -37,7 +37,7 @@ export default function Home() {
           on. If you would like to correspond regarding work opportunties, feel
           free to reach out to me below.
         </p>
-
+        {/* Link to contact me page */}
         <div className='link-btns'>
           <Link
             className="btn btn-primary link"
@@ -45,7 +45,7 @@ export default function Home() {
           >
             Contact Me
           </Link>
-          
+          {/* Link to download resume */}
           <a className='btn btn-primary link'
             href="Hunter-Steffner-Resume.pdf"
             download="Hunter-Steffner-Resume.pdf"
@@ -57,7 +57,7 @@ export default function Home() {
     </div>
   )
 }
-
+// Function for contact me page
 function CustomLink({ to, children, ...props }) {
   const resolvedPath = useResolvedPath(to)
   const isActive = useMatch({ path: resolvedPath.pathname, end: true })

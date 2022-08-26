@@ -1,12 +1,12 @@
 export default function AboutMe() {
-  // All functional components must have a return method that contains JSX.
-  // We return all the JSX inside a parent element with a className of "container".
+    // The about me page. It displays my skills
   return (
     <div className="home-container">
       <div className="about-image"></div>
       <div className="about-desc">
         <h1>Skills</h1>
         <div className="skills-container">
+            {/* Each skills card has skills for different categories */}
           <div className="skills">
             <h2>Frontend Skills</h2>
             <ul>
