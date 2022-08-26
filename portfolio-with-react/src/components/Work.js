@@ -97,12 +97,15 @@ export default function Work() {
           <div className="project-desc">
             <h3>Password Generator</h3>
             <h4>HTML, CSS, JavaScript</h4>
+            
+
             <a className="btn btn-primary" target="_blank" href="https://huntersteffner.github.io/Password-Generator/">
               Deployed Site
             </a>
             <a className="btn btn-primary" target="_blank" href="https://github.com/huntersteffner/Password-Generator">
               GitHub
             </a>
+            
           </div>
         </div>
       </div>

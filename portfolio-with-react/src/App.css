@@ -43,6 +43,9 @@ body {
   width: 100%;
   padding: 1rem;
 }
+#footer a {
+  color: #fff;
+}
 /* Home page divs */
 .home-container {
   display: flex;
@@ -147,6 +150,7 @@ body {
 .project-desc {
   display: flex;
   flex-direction: column;
+
   text-align: center;
 }
 .project-desc a {
