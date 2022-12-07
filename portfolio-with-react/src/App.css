@@ -176,6 +176,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 .form-input {
   margin: .5rem 0;
