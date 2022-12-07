@@ -14,9 +14,9 @@ export default function AboutMe() {
               <li>React.js</li>
               <li>HTML</li>
               <li>CSS</li>
-              <li>JQuery</li>
+              <li>Tailwind</li>
               <li>Bootstrap</li>
-              <li>Handlebars.js</li>
+              <li>JQuery</li>
             </ul>
           </div>
           <div className="skills">

@@ -22,7 +22,7 @@ export default function Navbar() {
           {/* Regular href. It is a link to download my resume */}
           <a
             href="Hunter-Steffner-Resume.pdf"
-            download="Hunter-Steffner-Resume.pdf"
+            download="Matthew-Hunter-Steffner-Resume.pdf"
           >
             Resume
           </a>

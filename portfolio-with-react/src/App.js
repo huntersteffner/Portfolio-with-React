@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Home from './components/Home'
+import Home from './components/Home/Home'
 import AboutMe from './components/AboutMe'
 import Work from './components/Work'
 import Resume from './components/Resume'

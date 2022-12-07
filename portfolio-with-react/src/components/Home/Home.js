@@ -1,4 +1,5 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
+import classes from './Home.css'
 // There is a link button so react-router-dom was also imported here
 export default function Home() {
   return (
@@ -48,7 +49,7 @@ export default function Home() {
           {/* Link to download resume */}
           <a className='btn btn-primary link'
             href="Hunter-Steffner-Resume.pdf"
-            download="Hunter-Steffner-Resume.pdf"
+            download="Matthew-Hunter-Steffner-Resume.pdf"
           >
             Resume
           </a>
