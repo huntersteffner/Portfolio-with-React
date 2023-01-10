@@ -11,13 +11,21 @@ import './App.css'
 
 export default function App() {
   const projects = [
+    // {
+    //   title: 'Wookies Gold',
+    //   skillsUsed: 'Node.js, MySQL, Bootstrap',
+    //   imgURL: './Wookies-Gold.png',
+    //   alt: 'Wookies Gold',
+    //   deployed: 'https://glacial-tor-15581.herokuapp.com/',
+    //   github: 'https://github.com/pcondori1996/WookiesGold'
+    // },
     {
-      title: 'Wookies Gold',
-      skillsUsed: 'Node.js, MySQL, Bootstrap',
-      imgURL: './Wookies-Gold.png',
-      alt: 'Wookies Gold',
-      deployed: 'https://glacial-tor-15581.herokuapp.com/',
-      github: 'https://github.com/pcondori1996/WookiesGold'
+      title: 'The Local Gym',
+      skillsUsed: 'React, Tailwind',
+      imgURL: './Local-Gym.jpg',
+      alt: 'Local Gym',
+      deployed: 'https://huntersteffner.github.io/Gym/',
+      github: 'https://github.com/huntersteffner/Gym'
     },
     {
       title: 'Weather App',
