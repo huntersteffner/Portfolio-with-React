@@ -23,6 +23,7 @@ export default function AboutMe() {
             <h2>Backend Skills</h2>
             <ul>
               <li>Node.js</li>
+              <li>Firebase</li>
               <li>Express.js</li>
               <li>MongoDB</li>
               <li>MySQL</li>
