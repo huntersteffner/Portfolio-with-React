@@ -15,7 +15,7 @@ export default function Home() {
         <p>
           I completed my undergrad at Georgia Southern University in the class
           of 2017 with a Major in Logistics and Minor in Spanish. (Sí, puedo
-          hablar y trabajar en español, si es necesario)
+          hablar y trabajar en español, si es necesario).
         </p>
         <p>
           After I completed my undergrad I began to work in a position at NCR Corporation as
@@ -34,6 +34,7 @@ export default function Home() {
         <p>I can fulfill any Web Development task that you need me to fulfill using the Frontend Languages of HTML, CSS, and JavaScript
           (and React.js framework) and the Backend Languages of Node.js,
           MySQL, and MongoDB. Additionally, I am investigative by nature and can quickly learn how to work with other languages as the job requires. Presently, I am studying Java development as well.</p>
+          <p>Currently, I am teaching other students Full Stack Web Development through edX coding bootcamps and am working on various projects. I am also currently in the market for a Junior Level Web Developer position.</p>
         <p>
           Feel free to check out my projects tab to see what I have been working
           on. If you would like to correspond regarding work opportunties, feel
