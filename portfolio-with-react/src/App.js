@@ -3,7 +3,6 @@ import Navbar from './components/Navbar'
 import Home from './components/Home/Home'
 import AboutMe from './components/AboutMe'
 import Work from './components/Work'
-import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import {Route, Routes} from 'react-router-dom'
@@ -22,6 +21,7 @@ export default function App() {
     {
       title: 'The Local Gym',
       skillsUsed: 'React, Tailwind',
+      summary: 'A gym website template that can be adjusted to suit other websites\'s needs. Can be used for freelance work',
       imgURL: './Local-Gym.jpg',
       alt: 'Local Gym',
       deployed: 'https://huntersteffner.github.io/Gym/',
@@ -77,7 +77,6 @@ export default function App() {
         <Route path='/Portfolio-with-React/' element={<Home/>} />
         <Route path='/Portfolio-with-React/about-me' element={<AboutMe/>} />
         <Route path='/Portfolio-with-React/work' element={<Work projects={projects} />} />
-        <Route path='/Portfolio-with-React/resume' element={<Resume/>} />
         <Route path='/Portfolio-with-React/contact' element={<Contact/>} />
       </Routes>
       

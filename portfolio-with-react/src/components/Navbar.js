@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
 export default function Navbar() {
+  
   return (
     // This navbar uses react-router-dom to link to different pages.
     <nav id="nav">
@@ -16,12 +17,12 @@ export default function Navbar() {
         </li>
         <li>
           {/* Shows projects I have worked on */}
-          <CustomLink to="/Portfolio-with-React/work">Work</CustomLink>
+          <CustomLink to="/Portfolio-with-React/work">Projects</CustomLink>
         </li>
         <li>
           {/* Regular href. It is a link to download my resume */}
           <a
-            href="Hunter-Steffner-Resume.pdf"
+            href="Matthew-Hunter-Steffner-Resume.pdf"
             download="Matthew-Hunter-Steffner-Resume.pdf"
           >
             Resume

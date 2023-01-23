@@ -8,6 +8,7 @@ export default function Work(props) {
         <WorkCard
           title={props.projects[0].title}
           skillsUsed={props.projects[0].skillsUsed}
+          summary={props.projects[0].summary}
           imgURL={props.projects[0].imgURL}
           alt={props.projects[0].alt}
           deployed={props.projects[0].deployed}

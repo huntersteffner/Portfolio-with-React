@@ -8,11 +8,12 @@ export default function WorkCard(props) {
           </div>
           <div className="project-desc">
             <h3>{props.title}</h3>
-            <h4>{props.skillsUsed}</h4>
-            <a className="btn btn-primary" target="_blank" href={props.deployed}>
+            <p>{props.summary}</p>
+            <h4>Made with {props.skillsUsed}</h4>
+            <a className="btn btn-primary" rel='noreferrer' target="_blank" href={props.deployed}>
               Deployed Site
             </a>
-            <a className="btn btn-primary" target="_blank" href={props.github}>
+            <a className="btn btn-primary" rel='noreferrer' target="_blank" href={props.github}>
               GitHub
             </a>
           </div>
