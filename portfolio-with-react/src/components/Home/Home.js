@@ -11,7 +11,7 @@ export default function Home() {
         <h1>Matthew Hunter Steffner</h1>
         <h2>Full Stack Web Developer</h2>
 
-        <p>I was born and raised in Atlanta Georgia and currently live in Charlotte North Carolina.</p>
+        <p>I was born and raised in Atlanta Georgia and currently live in Charlotte North Carolina with my beautiful Peruvian wife.</p>
         <p>
           I completed my undergrad at Georgia Southern University in the class
           of 2017 with a Major in Logistics and Minor in Spanish. (Sí, puedo
