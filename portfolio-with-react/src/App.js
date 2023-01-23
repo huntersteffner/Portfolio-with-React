@@ -21,7 +21,7 @@ export default function App() {
     {
       title: 'The Local Gym',
       skillsUsed: 'React, Tailwind',
-      summary: 'A gym website template that can be adjusted to suit other websites\'s needs. Can be used for freelance work',
+      summary: 'A gym website template ready to be adjusted to suit other website\'s needs. Can be used for freelance work.',
       imgURL: './Local-Gym.jpg',
       alt: 'Local Gym',
       deployed: 'https://huntersteffner.github.io/Gym/',
