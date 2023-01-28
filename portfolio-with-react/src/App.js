@@ -19,21 +19,22 @@ export default function App() {
     //   github: 'https://github.com/pcondori1996/WookiesGold'
     // },
     {
+      title: 'Bnb Network',
+      skillsUsed: 'Firebase, React, Tailwind, & Daisy UI',
+      summary: 'This is a Full Stack Bed and Breakfast website that was inspired by AirBnb. Users can register, login, create bnb locations, book trips to existing locations, and view complete trip history. UI was made mostly with the Daisy UI Tailwind Library',
+      imgURL: './Bnb-Network.png',
+      alt: 'BnB Network',
+      deployed: 'https://bnb-network.vercel.app/',
+      github: 'https://github.com/huntersteffner/bnb-network'
+    },
+    {
       title: 'The Local Gym',
-      skillsUsed: 'React, Tailwind',
-      summary: 'A gym website template ready to be adjusted to suit other website\'s needs. Can be used for freelance work.',
+      skillsUsed: 'React & Tailwind',
+      summary: 'A gym website template ready to be adjusted to suit other website\'s needs. Can be used for freelance work. Almost all CSS styling was custom designed',
       imgURL: './Local-Gym.jpg',
       alt: 'Local Gym',
       deployed: 'https://huntersteffner.github.io/Gym/',
       github: 'https://github.com/huntersteffner/Gym'
-    },
-    {
-      title: 'Weather App',
-      skillsUsed: 'JavaScript, Bootstrap',
-      imgURL: './Weather-App.png',
-      alt: 'Weather App',
-      deployed: 'https://huntersteffner.github.io/Weather-App/',
-      github: 'https://github.com/huntersteffner/Weather-App'
     },
     {
       title: 'Concert Finder',
