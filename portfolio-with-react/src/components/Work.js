@@ -23,7 +23,7 @@ export default function Work(props) {
           deployed={props.projects[1].deployed}
           github={props.projects[1].github}
         />
-        <WorkCard
+        {/* <WorkCard
           title={props.projects[2].title}
           skillsUsed={props.projects[2].skillsUsed}
           imgURL={props.projects[2].imgURL}
@@ -38,7 +38,7 @@ export default function Work(props) {
           alt={props.projects[3].alt}
           deployed={props.projects[3].deployed}
           github={props.projects[3].github}
-        />
+        /> */}
         <WorkCard
           title={props.projects[4].title}
           skillsUsed={props.projects[4].skillsUsed}
