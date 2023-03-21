@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio-with-React/static/css/main.6bb91b95.css",
-    "main.js": "/Portfolio-with-React/static/js/main.3665919e.js",
+    "main.js": "/Portfolio-with-React/static/js/main.aba5e6e4.js",
     "static/js/787.51ee14cf.chunk.js": "/Portfolio-with-React/static/js/787.51ee14cf.chunk.js",
     "static/media/Wedding-photo.jpg": "/Portfolio-with-React/static/media/Wedding-photo.9350f98466bafe10fc1f.jpg",
     "static/media/Hunter-on-subway.jpg": "/Portfolio-with-React/static/media/Hunter-on-subway.6dce987d9ed20428795b.jpg",
     "index.html": "/Portfolio-with-React/index.html",
     "main.6bb91b95.css.map": "/Portfolio-with-React/static/css/main.6bb91b95.css.map",
-    "main.3665919e.js.map": "/Portfolio-with-React/static/js/main.3665919e.js.map",
+    "main.aba5e6e4.js.map": "/Portfolio-with-React/static/js/main.aba5e6e4.js.map",
     "787.51ee14cf.chunk.js.map": "/Portfolio-with-React/static/js/787.51ee14cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bb91b95.css",
-    "static/js/main.3665919e.js"
+    "static/js/main.aba5e6e4.js"
   ]
 }
