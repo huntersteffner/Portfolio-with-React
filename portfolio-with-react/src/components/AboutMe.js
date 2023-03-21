@@ -12,6 +12,7 @@ export default function AboutMe() {
             <ul>
               <li>JavaScript</li>
               <li>React.js</li>
+              <li>Angular</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>Tailwind</li>

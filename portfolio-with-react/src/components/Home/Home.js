@@ -18,22 +18,22 @@ export default function Home() {
           hablar y trabajar en español, si es necesario).
         </p>
         <p>
-          After I completed my undergrad I began to work in a position at NCR Corporation as
+          After college I began to work at NCR Corporation as a
           Customer Service Representative for Digital Banking Software. As I
-          learned more about my employer's proprietary software in this role, I
+          learned more about my employer's proprietary software, I
           became fascinated with understanding how the applications functioned
-          behind the scenes, and eventually began to self-teach myself the
+          behind the scenes. Eventually I became so curious that I began to self-teach myself the
           basics of HTML, CSS, and JavaScript in my free time.
         </p>
         <p>
           After 4.5 years at NCR, I decided to make a career
-          change and enrolled in a FullStack Web Development Bootcamp at the Georgia Institue of
-          Technology. It was an intensive program designed through which I learned the skills needed to become a Fullstack Web Developer.
+          change and enrolled in a Full Stack Web Development Bootcamp at the Georgia Institue of
+          Technology.
           
         </p>
         <p>I can fulfill any Web Development task that you need me to fulfill using the Frontend Languages of HTML, CSS, and JavaScript
-          (and React.js framework) and the Backend Languages of Node.js,
-          MySQL, and MongoDB. Additionally, I am investigative by nature and can quickly learn how to work with other languages as the job requires. Presently, I am studying Java development as well.</p>
+          (with either React or Angular as a framework for Single Page Applications) and Languages for the Backend such as Node.js,
+          MySQL, and MongoDB. Additionally, I am investigative by nature and can quickly learn how to work with other technologies as the job requires. Presently, I am studying Java development as well.</p>
           <p>Currently, I am teaching other students Full Stack Web Development through edX coding bootcamps and am working on various projects. I am also currently in the market for a Junior Level Web Developer position.</p>
         <p>
           Feel free to check out my projects tab to see what I have been working
