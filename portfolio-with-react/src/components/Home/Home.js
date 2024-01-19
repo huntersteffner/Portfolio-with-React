@@ -11,34 +11,24 @@ export default function Home() {
         <h1>Matthew Hunter Steffner</h1>
         <h2>Full Stack Web Developer</h2>
 
-        <p>I was born and raised in Atlanta Georgia and currently live in Charlotte North Carolina with my beautiful Peruvian wife.</p>
+        <p>I was born and raised in Atlanta, Georgia and currently live in Charlotte, North Carolina with my beautiful Peruvian wife.</p>
         <p>
-          I completed my undergrad at Georgia Southern University in the class
-          of 2017 with a Major in Logistics and Minor in Spanish. (Sí, puedo
+          I completed my undergrad degree at Georgia Southern University in 2017 with a Major in Logistics and Minor in Spanish. (Sí, puedo
           hablar y trabajar en español, si es necesario).
         </p>
         <p>
           After college I began to work at NCR Corporation as a
-          Customer Service Representative for Digital Banking Software. As I
-          learned more about my employer's proprietary software, I
-          became fascinated with understanding how the applications functioned
-          behind the scenes. Eventually I became so curious that I began to self-teach myself the
-          basics of HTML, CSS, and JavaScript in my free time.
+          Customer Service Representative for Digital Banking Software. My company's proprietary software fascinated me, so I began to teach myself the
+          basics of HTML, CSS, and JavaScript.
         </p>
         <p>
           After 4.5 years at NCR, I decided to make a career
-          change and enrolled in a Full Stack Web Development Bootcamp at the Georgia Institue of
-          Technology.
-          
+          change and enrolled in a Full-Stack Web Development Bootcamp at Georgia Tech. After earning my certificate from this course, I worked for a few months as a part-time Teaching Assistant, at a Coding Bootcamp very similar to the one I had studied under. In March 2023, I began my current role as an Angular Developer with Electrolux.
         </p>
-        <p>I can fulfill any Web Development task that you need me to fulfill using the Frontend Languages of HTML, CSS, and JavaScript
-          (with either React or Angular as a framework for Single Page Applications) and Languages for the Backend such as Node.js,
-          MySQL, and MongoDB. Additionally, I am investigative by nature and can quickly learn how to work with other technologies as the job requires. Presently, I am studying Java development as well.</p>
-          <p>Currently, I am teaching other students Full Stack Web Development through edX coding bootcamps and am working on various projects. I am also currently in the market for a Junior Level Web Developer position.</p>
+        <p>Any Web Development request that you have, I can fulfill. I understand both Frontend and Backend Web Development. Frameworks of projects I have worked on include Angular, React, Springboot, Laravel, and more. Additionally, I am quite investigative by nature and can quickly learn how to work with other technologies as the job requires. Feel free to check out my projects tab to see what I have been working
+          on.</p>
         <p>
-          Feel free to check out my projects tab to see what I have been working
-          on. If you would like to correspond regarding work opportunties, feel
-          free to reach out to me below.
+          If you'd like for me to make your project a success, don't hesitate to reach out to me below.
         </p>
         {/* Link to contact me page */}
         <div className='link-btns'>

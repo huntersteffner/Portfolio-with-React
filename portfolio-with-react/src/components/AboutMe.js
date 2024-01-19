@@ -8,11 +8,11 @@ export default function AboutMe() {
         <div className="skills-container">
             {/* Each skills card has skills for different categories */}
           <div className="skills">
-            <h2>Frontend Skills</h2>
+            <h2>Frontend</h2>
             <ul>
               <li>JavaScript</li>
-              <li>React.js</li>
               <li>Angular</li>
+              <li>React.js</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>Tailwind</li>
@@ -21,8 +21,10 @@ export default function AboutMe() {
             </ul>
           </div>
           <div className="skills">
-            <h2>Backend Skills</h2>
+            <h2>Backend</h2>
             <ul>
+              <li>PHP</li>
+              <li>Java</li>
               <li>Node.js</li>
               <li>Firebase</li>
               <li>Express.js</li>
