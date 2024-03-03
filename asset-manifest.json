@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio-with-React/static/css/main.6bb91b95.css",
-    "main.js": "/Portfolio-with-React/static/js/main.ed2185c7.js",
+    "main.css": "/Portfolio-with-React/static/css/main.2e1fa869.css",
+    "main.js": "/Portfolio-with-React/static/js/main.165ff5e8.js",
     "static/js/787.51ee14cf.chunk.js": "/Portfolio-with-React/static/js/787.51ee14cf.chunk.js",
     "static/media/Wedding-photo.jpg": "/Portfolio-with-React/static/media/Wedding-photo.9350f98466bafe10fc1f.jpg",
     "static/media/Hunter-on-subway.jpg": "/Portfolio-with-React/static/media/Hunter-on-subway.6dce987d9ed20428795b.jpg",
+    "static/media/Local-Gym.jpg": "/Portfolio-with-React/static/media/Local-Gym.e80d726ca43d6bbb156b.jpg",
+    "static/media/Electrolux.png": "/Portfolio-with-React/static/media/Electrolux.597426a71f857e93f1cb.png",
+    "static/media/Frigidaire.png": "/Portfolio-with-React/static/media/Frigidaire.adbdaa26ef0ff7b6a9ca.png",
+    "static/media/Work-Team-Generator.png": "/Portfolio-with-React/static/media/Work-Team-Generator.4e59b8d0aab7c07f2e08.png",
+    "static/media/Bnb-Network.png": "/Portfolio-with-React/static/media/Bnb-Network.3e33e22d4742929c6c6f.png",
+    "static/media/Password-Generator.png": "/Portfolio-with-React/static/media/Password-Generator.613157a6440aa5b1ad1b.png",
     "index.html": "/Portfolio-with-React/index.html",
-    "main.6bb91b95.css.map": "/Portfolio-with-React/static/css/main.6bb91b95.css.map",
-    "main.ed2185c7.js.map": "/Portfolio-with-React/static/js/main.ed2185c7.js.map",
+    "main.2e1fa869.css.map": "/Portfolio-with-React/static/css/main.2e1fa869.css.map",
+    "main.165ff5e8.js.map": "/Portfolio-with-React/static/js/main.165ff5e8.js.map",
     "787.51ee14cf.chunk.js.map": "/Portfolio-with-React/static/js/787.51ee14cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bb91b95.css",
-    "static/js/main.ed2185c7.js"
+    "static/css/main.2e1fa869.css",
+    "static/js/main.165ff5e8.js"
   ]
 }
