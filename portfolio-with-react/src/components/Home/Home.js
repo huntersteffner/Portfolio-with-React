@@ -13,7 +13,7 @@ export default function Home() {
 
         <p>I was born and raised in Atlanta, Georgia and currently live in Charlotte, North Carolina with my beautiful Peruvian wife.</p>
         <p>
-          I completed my undergrad degree at Georgia Southern University in 2017 with a Major in Logistics and Minor in Spanish. (Sí, puedo
+          I completed my undergradate degree at Georgia Southern University in 2017 with a Major in Logistics and Minor in Spanish. (Sí, puedo
           hablar y trabajar en español, si es necesario).
         </p>
         <p>
@@ -23,7 +23,7 @@ export default function Home() {
         </p>
         <p>
           After 4.5 years at NCR, I decided to make a career
-          change and enrolled in a Full-Stack Web Development Bootcamp at Georgia Tech. After earning my certificate from this course, I worked for a few months as a part-time Teaching Assistant, at a Coding Bootcamp very similar to the one I had studied under. In March 2023, I began my current role as an Angular Developer with Electrolux.
+          change and enrolled in a Full-Stack Web Development Bootcamp at Georgia Tech. After completing this course, I worked for a few months as a part-time Teaching Assistant, at a Coding Bootcamp very similar to the one I had studied under. In March 2023, I accepted an offer for a full-time position at Electrolux as an Angular Developer.
         </p>
         <p>Any Web Development request that you have, I can fulfill. I understand both Frontend and Backend Web Development. Frameworks of projects I have worked on include Angular, React, Springboot, Laravel, and more. Additionally, I am quite investigative by nature and can quickly learn how to work with other technologies as the job requires. Feel free to check out my projects tab to see what I have been working
           on.</p>

@@ -17,7 +17,7 @@ export default function Navbar() {
         </li>
         <li>
           {/* Shows projects I have worked on */}
-          <CustomLink to="/Portfolio-with-React/work">Projects</CustomLink>
+          <CustomLink to="/Portfolio-with-React/work">Work & Projects</CustomLink>
         </li>
         <li>
           {/* Regular href. It is a link to download my resume */}

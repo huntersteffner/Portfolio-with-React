@@ -116,7 +116,7 @@ body {
 .project-card {
   background-color: var(--dark-bg-color);
   border: black 1px solid;
-  width: 20rem;
+  width: 22rem;
   margin: 1.5rem;
   border-radius: 10px;
   padding-bottom: 1.3rem;
@@ -163,6 +163,29 @@ body {
 .project-desc-text {
   text-size: 5rem;
 }
+
+#project-type-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+}
+
+.project-type-link {
+  color: #fff;
+  font-size: 3rem;
+  margin: 2rem;
+  padding: 1.5rem 2rem;
+  border: #fff solid 3px;
+  border-radius: 10px;
+}
+.project-type-link>i {
+  font-size: 4.5rem;
+}
+.project-type-link:hover {
+  color: #fff;
+}
+
 /* Contact me page */
 .form-container {
   border: 1px solid black;
@@ -267,5 +290,19 @@ body {
   }
   .project-button-container {
   margin-bottom: 1rem;
-}
+  }
+
+  #project-type-select {
+    flex-direction: column;
+    height: 35rem;
+  }
+  .project-type-link {
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border: #fff solid 3px;
+  }
+  .project-type-link>i {
+    font-size: 1.2rem;
+  }
 }
