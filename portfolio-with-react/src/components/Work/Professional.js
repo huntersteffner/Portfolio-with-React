@@ -14,7 +14,6 @@ export default function Professional(props) {
             imgURL={data.imgURL}
             alt={data.alt}
             deployed={data.deployed}
-            github={data.github}
             />
           )
         })}

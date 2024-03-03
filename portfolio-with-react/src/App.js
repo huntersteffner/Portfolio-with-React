@@ -25,7 +25,6 @@ export default function App() {
       imgURL: frigidaire,
       alt: 'Frigidaire',
       deployed: 'https://bnb-network.vercel.app/',
-      github: 'https://github.com/huntersteffner/bnb-network'
     },
     {
       title: 'Electrolux',
@@ -34,7 +33,6 @@ export default function App() {
       imgURL: electrolux,
       alt: 'Frigidaire',
       deployed: 'https://bnb-network.vercel.app/',
-      github: 'https://github.com/huntersteffner/bnb-network'
     },
   ]
 
