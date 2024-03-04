@@ -24,7 +24,7 @@ export default function App() {
       summary: 'This is the main site I work on for my full-time position at Electrolux. It is an ecommerce site for Frigidaire appliances.',
       imgURL: frigidaire,
       alt: 'Frigidaire',
-      deployed: 'https://bnb-network.vercel.app/',
+      deployed: 'https://www.frigidaire.com/en/',
     },
     {
       title: 'Electrolux',
@@ -32,7 +32,7 @@ export default function App() {
       summary: 'This is a site I regularly work on for my full-time position at Electrolux. It is an ecommerce site for Electrolux appliances.',
       imgURL: electrolux,
       alt: 'Frigidaire',
-      deployed: 'https://bnb-network.vercel.app/',
+      deployed: 'https://www.electrolux.com/en/',
     },
   ]
 
